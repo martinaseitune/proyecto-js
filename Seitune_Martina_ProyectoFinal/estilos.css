@@ -1,0 +1,39 @@
+body {font-family: 'Quicksand', sans-serif;}
+
+#logo {width: 130px;
+            height: 55px;
+            background: url("img/logo.png") no-repeat;
+            font-size: 0;
+           position: fixed;            
+            top: 8px;
+            left: 50px;
+            z-index: 1100;}
+
+header {position: relative;}
+
+  .active {
+            background: white;
+        }
+        .active a {
+            color: grey !important;
+        }
+
+.fondo1 {background-color: #5e2791;}
+
+.fondo2 {
+background-color: rgb(96, 95, 131);}
+
+span {color: blueviolet;
+font-weight: bold;
+font-size: 1.5em;}
+
+ul {list-style: none;
+display: inline-flex;}
+
+a{text-decoration: none;}
+
+footer {color: white;}
+
+.stop-wow {
+            animation-name: none !important;
+            visibility: visible !important;}
